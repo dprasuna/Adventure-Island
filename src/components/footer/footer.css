@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 1rem;
+  background: rgb(19, 19, 19);
+  gap: 1rem;
+  color: rgb(224, 224, 224);
+}
+footer h3 {
+  display: flex;
+  gap: 1rem;
+}
+footer h3 a {
+  text-decoration: none;
+  color: #db4437;
+}
+footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(255, 255, 255);
+}
+footer .socials li {
+  list-style: none;
+}
+footer .socials li a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+footer .socials li a svg {
+  font-size: 1.7rem;
+}
+footer .socials li:nth-child(2) a {
+  color: #0a66c2;
+}
+footer .socials li:nth-child(3) a {
+  color: #80bb03;
+}/*# sourceMappingURL=footer.css.map */

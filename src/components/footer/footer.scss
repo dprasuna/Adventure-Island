@@ -1,0 +1,51 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 1rem;
+  background: rgb(19, 19, 19);
+  gap: 1rem;
+  color: rgb(224, 224, 224);
+
+  h3 {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      text-decoration: none;
+      color: #db4437;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(255, 255, 255);
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #1da1f2;
+        svg {
+          font-size: 1.7rem;
+        }
+      }
+    }
+
+    li:nth-child(2) {
+      a {
+        color: #0a66c2;
+      }
+    }
+    li:nth-child(3) {
+      a {
+        color: #80bb03;
+      }
+    }
+  }
+}

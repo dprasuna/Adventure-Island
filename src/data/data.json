@@ -1,0 +1,42 @@
+[
+  {
+    "type": {
+      "background": "WildLifebg",
+      "title": "Wildlife",
+      "description": "Wildlife refers to undomesticated animal species, but has come to include all organisms that grow or live wild in an area without being introduced by humans.",
+      "total": 100,
+      "endangered": 200,
+      "extinct": 300
+    }
+  },
+  {
+    "type": {
+      "background": "BirdBg",
+      "title": "SKY",
+      "description": "Wildlife refers to undomesticated animal species, but has come to include all organisms that grow or live wild in an area without being introduced by humans.",
+      "total": 100,
+      "endangered": 200,
+      "extinct": 300
+    }
+  },
+  {
+    "type": {
+      "background": "Turtlebg",
+      "title": "WATER",
+      "description": "Wildlife refers to undomesticated animal species, but has come to include all organisms that grow or live wild in an area without being introduced by humans.",
+      "total": 100,
+      "endangered": 200,
+      "extinct": 300
+    }
+  },
+  {
+    "type": {
+      "background": "Reindeerbg",
+      "title": "JUNGLE",
+      "description": "Wildlife refers to undomesticated animal species, but has come to include all organisms that grow or live wild in an area without being introduced by humans.",
+      "total": 100,
+      "endangered": 200,
+      "extinct": 300
+    }
+  }
+]

@@ -1,0 +1,256 @@
+.home {
+  background: rgb(245, 245, 245);
+}
+.home .wildLifeStats {
+  position: relative;
+  overflow-x: hidden;
+}
+.home .wildLifeStats .WildLifeHeadingbg {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/backgrounds/bg.jpg") no-repeat center/cover;
+  background-color: rgba(0, 0, 0, 0.753);
+  background-blend-mode: darken;
+  top: 0;
+}
+.home .wildLifeStats .WildLifeHeading {
+  width: 100%;
+  height: 0;
+  flex-direction: column;
+  display: flex;
+  color: rgba(255, 255, 255, 0.582);
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  padding: auto;
+  text-align: center;
+  bottom: 0;
+  gap: 2rem;
+  overflow: visible;
+  position: relative;
+}
+.home .wildLifeStats .WildLifeHeading h2 {
+  opacity: 0;
+  top: 0;
+  scale: 0;
+  position: relative;
+  z-index: 10;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.home .wildLifeStats .WildLifeHeading h2 span {
+  font-size: 1rem;
+}
+.home .wildLifeStats .WildLifeHeading .Letsview {
+  color: rgba(25, 148, 0, 0.849);
+  font-size: 2rem;
+}
+.home .wildLifeStats .statbox {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+  height: 100vh;
+}
+.home .wildLifeStats .statbox .birddiv {
+  width: 300%;
+  display: flex;
+  height: 100%;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+  flex-wrap: nowrap;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper {
+  position: relative;
+  margin-left: 5rem;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  padding: 2rem 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 2rem;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper h2 {
+  position: absolute;
+  font-size: 2rem;
+  transform: rotate(-90deg);
+  color: #060a01;
+  text-transform: uppercase;
+  margin-left: -7rem;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper h4 {
+  color: #426b00;
+  font-size: 1.5rem;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper p {
+  color: #cacaca;
+  font-size: 0.8rem;
+  text-align: left;
+  font-weight: 200;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper button {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+  background: #6a7e48;
+  color: rgba(202, 202, 202, 0.712);
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(1) {
+  background: url("../assets/backgrounds/bgBird.jpg") no-repeat center/cover;
+  background-color: rgba(0, 0, 0, 0.616);
+  background-blend-mode: darken;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) {
+  background: url("../assets/backgrounds/bgWildLife.jpg") no-repeat center/cover;
+  background-color: rgba(0, 0, 0, 0.616);
+  background-blend-mode: darken;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) .birdwrapper h2 {
+  margin-left: -9rem;
+  color: rgba(255, 255, 255, 0.774);
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) .birdwrapper h4 {
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) .birdwrapper button {
+  background: #010507;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) {
+  background: url("../assets/backgrounds/bg6.jpg") no-repeat center/cover;
+  background-color: rgba(0, 0, 0, 0.616);
+  background-blend-mode: darken;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) .birdwrapper h2 {
+  color: #1f6d86;
+  margin-left: -9rem;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) .birdwrapper h4 {
+  color: #597f9f;
+}
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) .birdwrapper button {
+  background: #08242f;
+}
+.home .wildLifeStats .typebx {
+  display: flex;
+  flex-wrap: wrap;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+  width: 100%;
+  min-height: 100vh;
+  gap: 3rem;
+  background: #001929;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.home .wildLifeStats .typebx .type {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  justify-content: center;
+}
+.home .wildLifeStats .typebx .type .card {
+  width: 200px;
+  height: 150px;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+.home .wildLifeStats .typebx .type .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .wildLifeStats .typebx .type .card .info {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.623);
+  width: 100%;
+  height: 30%;
+  color: rgba(255, 255, 255, 0.5490196078);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .wildLifeStats .typebx .type::before {
+  content: "Critically Endangered";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  top: 10%;
+  color: rgba(255, 255, 255, 0.568);
+  width: 100%;
+  z-index: 10;
+}
+.home .wildLifeStats .typebx .type:nth-child(2)::before {
+  content: "Threatned";
+}
+.home .wildLifeStats .typebx .type:nth-child(3)::before {
+  content: "Vulnerable";
+}
+.home .wildLifeStats .saveanimal {
+  width: 100%;
+  background: url("../assets/backgrounds/bg2.jpg") no-repeat center/cover;
+  height: 50vh;
+}
+.home .wildLifeStats .saveanimal .sectionheading {
+  background: rgb(235, 235, 235);
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.home .wildLifeStats .saveanimal .sectionheading h3 {
+  font-size: 5rem;
+  background: url("../assets/backgrounds/bg2.jpg") no-repeat center/cover;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .home .wildLifeStats .WildLifeHeading h2 {
+    font-size: 2rem;
+  }
+  .home .wildLifeStats .WildLifeHeading h2 span {
+    font-size: 0.5rem;
+  }
+  .home .wildLifeStats .WildLifeHeading .Letsview {
+    font-size: 1rem;
+  }
+  .home .wildLifeStats .statbox .birddiv .BirdStats,
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2),
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) {
+    padding: 4rem 1rem;
+  }
+  .home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper,
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) .birdwrapper,
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) .birdwrapper {
+    margin: 1rem;
+  }
+  .home .wildLifeStats .statbox .birddiv .BirdStats .birdwrapper h2,
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(2) .birdwrapper h2,
+.home .wildLifeStats .statbox .birddiv .BirdStats:nth-child(3) .birdwrapper h2 {
+    display: none;
+  }
+}/*# sourceMappingURL=home.css.map */
